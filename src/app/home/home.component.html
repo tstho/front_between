@@ -1,0 +1,21 @@
+<div>
+    <div>
+        <button (click)="chargeAllFormations()">Recharger les formations</button>
+    </div>
+    <div>
+        {{errorMessage}}
+    </div>
+    <div>
+        <h1>Liste des formations </h1>
+        <div *ngFor="let formation of formations">
+            <div>
+                <h3>{{ formation.title }}</h3>
+                <p>Adresse: {{ formation.adress }}, {{ formation.zipCode }} {{ formation.city }}</p>
+                <p>Numéro de téléphone: {{ formation.phone }}</p>
+                <p>Code Rome: {{ formation.romeCode }}</p>
+                <button>Modifier</button>
+                <button (click)="deleteFormation(formation)">Supprimer</button>
+            </div>
+        </div>
+    </div>
+</div>

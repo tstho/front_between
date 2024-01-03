@@ -1,27 +1,18 @@
 # Front
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Ce projet a été généré avec [Angular CLI] version 16.2.0.
 
-## Development server
+Vous pouvez lancer le front-end angular avec la commande 'ng serve'
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Le front-end sera disponible à cette adresse : `http://localhost:4200`
 
-## Code scaffolding
+## Back
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Un back-end est disponible : https://github.com/tstho/back_between.git
 
-## Build
+Le back-end a été développé avec Java 17 & Spring Boot 3.2.1
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Vous pouvez lancer le back-end avec la commande `mvn spring-boot: run`
+ 
+et utiliser l'API via cette adresse : `http://localhost:9000`
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
